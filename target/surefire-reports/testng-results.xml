@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="32381" started-at="2021-12-17T15:10:24 IST" finished-at="2021-12-17T15:10:57 IST">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="31418" started-at="2021-12-17T15:10:24 IST" finished-at="2021-12-17T15:10:56 IST">
+      <class name="org.selenium.pom.tests.MyLoginPageTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@1b68ddbd]" name="startDriver" is-config="true" duration-ms="7240" started-at="2021-12-17T15:10:24 IST" finished-at="2021-12-17T15:10:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@1b68ddbd]" name="startDriver" is-config="true" duration-ms="7240" started-at="2021-12-17T15:10:24 IST" finished-at="2021-12-17T15:10:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@1b68ddbd]" name="Login" duration-ms="8528" started-at="2021-12-17T15:10:32 IST" finished-at="2021-12-17T15:10:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Reset()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@1b68ddbd]" name="Reset" duration-ms="22505" started-at="2021-12-17T15:10:32 IST" finished-at="2021-12-17T15:10:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reset -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@1b68ddbd]" name="quitDriver" is-config="true" duration-ms="1529" started-at="2021-12-17T15:10:40 IST" finished-at="2021-12-17T15:10:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@1b68ddbd]" name="quitDriver" is-config="true" duration-ms="1640" started-at="2021-12-17T15:10:54 IST" finished-at="2021-12-17T15:10:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.MyLoginPageTest -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="32381" started-at="2021-12-17T15:10:24 IST" finished-at="2021-12-17T15:10:57 IST">
+      <class name="org.selenium.pom.tests.MyLoginPageTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@131276c2]" name="startDriver" is-config="true" duration-ms="7240" started-at="2021-12-17T15:10:24 IST" finished-at="2021-12-17T15:10:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@131276c2]" name="startDriver" is-config="true" duration-ms="8056" started-at="2021-12-17T15:10:24 IST" finished-at="2021-12-17T15:10:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@131276c2]" name="Login" duration-ms="8625" started-at="2021-12-17T15:10:32 IST" finished-at="2021-12-17T15:10:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Reset()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@131276c2]" name="Reset" duration-ms="23487" started-at="2021-12-17T15:10:33 IST" finished-at="2021-12-17T15:10:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reset -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@131276c2]" name="quitDriver" is-config="true" duration-ms="971" started-at="2021-12-17T15:10:40 IST" finished-at="2021-12-17T15:10:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.MyLoginPageTest@131276c2]" name="quitDriver" is-config="true" duration-ms="805" started-at="2021-12-17T15:10:56 IST" finished-at="2021-12-17T15:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.MyLoginPageTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite1 -->
+</testng-results>
